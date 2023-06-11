@@ -1,5 +1,5 @@
 # Monday Motivation #
-The code allows to email motivational quotes on a specified day. This code can be edited to send other messages like birthday wishes by replacing the quotes.txt
+Email motivational quotes on a specific day of the week. This code can be edited to send other messages like birthday wishes by replacing the quotes.txt
 
 
 ## Setup Instructions ##
