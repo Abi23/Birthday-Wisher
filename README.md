@@ -1,4 +1,4 @@
-# Monday Motivation #
+# Email Automation #
 Email motivational quotes on a specific day of the week. This code can be edited to send other messages like birthday wishes by replacing the quotes.txt
 
 
