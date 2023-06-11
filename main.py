@@ -17,16 +17,15 @@ try:
 except:
     print("secret.json with login details is missing.")
 else:
-    # Creating a list of quotes
-    with open ("quotes.txt", mode='r') as data:
-        quotes_data = data.readlines()
-        random_quote = random.choice(quotes_data)
-
     # Find today's day
     now = dt.datetime.now()
     day_of_the_week = now.strftime("%A")
-
     if day_of_the_week == 'Monday':
+        # Creating a list of quotes and randomly selecting a quote
+        with open ("quotes.txt", mode='r') as data:
+            quotes_data = data.readlines()
+            random_quote = random.choice(quotes_data)
+        # Calling send email to send the email
         send_email()
 
 
